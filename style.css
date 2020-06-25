@@ -1,0 +1,103 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Orbitron:wght@400;900&display=swap" rel="stylesheet">');
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Berkshire', sans-serif;
+}
+
+ h1 {
+  background-image: url("fundo.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 4px solid #4d004d;
+  color: #ff5050;
+  font-size: 90px;
+  font-weight: 300;
+  padding: 38px 24px;
+  text-align-last: center;
+  text-shadow: 4px 4px 4px #ffb3b3;
+
+}
+main.container {
+  width: 50vw;
+  margin: auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+nav > a {
+  border-bottom: 4px solid #4d004d;
+  border-top: 4px solid #4d004d;
+  color:#002b80;
+  font-size: 30px;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+}
+nav > a:hover {
+  color:#ff471a;
+  border-top: 4px solid purple;
+  border-bottom: 4px solid purple;
+}
+
+img {
+  box-shadow: 4px 4px 4px #424242;
+  margin: 24px auto;
+  max-width: 100%;
+}
+h2 {
+  border-bottom: 1px solid #ccc;
+  color: black;
+  font-size: 32px;
+  text-align:center;
+  margin-bottom: 22px;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  text-align:justify;
+}
+p > a {
+  color: orange;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+p > a:hover {
+  opacity: 0.8;
+}
+p > span {
+  background-color:#ffccff;
+  padding: 0 4px;
+}
+iframe {
+  display: block;
+  max-width: 100%;
+  margin: 24px auto;
+}
+footer {
+  background-color: #ff9966;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-top: 12px;
+}
+footer > small {
+  color: #660033;
+  font-size: 18px;
+}
+footer > small a {
+  color: purple;
+  text-decoration: none;
+}
+footer > small a:hover {
+  text-decoration: line-through;
+}
